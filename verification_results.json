@@ -1,0 +1,157 @@
+{
+  "checked_on": "2026-09-12",
+  "scan": {
+    "family": "n = 6*t^2 + 11*t + 3",
+    "start_inclusive": 0,
+    "stop_exclusive": 1000,
+    "parameters_checked": 1000,
+    "valid_parameters": 120,
+    "observed_fraction": 0.12,
+    "first_witnesses": [
+      {
+        "t": 5,
+        "m": 35,
+        "n": 208
+      },
+      {
+        "t": 23,
+        "m": 143,
+        "n": 3430
+      },
+      {
+        "t": 36,
+        "m": 221,
+        "n": 8175
+      },
+      {
+        "t": 53,
+        "m": 323,
+        "n": 17440
+      },
+      {
+        "t": 56,
+        "m": 341,
+        "n": 19435
+      },
+      {
+        "t": 75,
+        "m": 455,
+        "n": 34578
+      },
+      {
+        "t": 87,
+        "m": 527,
+        "n": 46374
+      },
+      {
+        "t": 88,
+        "m": 533,
+        "n": 47435
+      },
+      {
+        "t": 110,
+        "m": 665,
+        "n": 73813
+      },
+      {
+        "t": 114,
+        "m": 689,
+        "n": 79233
+      },
+      {
+        "t": 118,
+        "m": 713,
+        "n": 84845
+      },
+      {
+        "t": 120,
+        "m": 725,
+        "n": 87723
+      },
+      {
+        "t": 138,
+        "m": 833,
+        "n": 115785
+      },
+      {
+        "t": 149,
+        "m": 899,
+        "n": 134848
+      },
+      {
+        "t": 178,
+        "m": 1073,
+        "n": 192065
+      },
+      {
+        "t": 180,
+        "m": 1085,
+        "n": 196383
+      },
+      {
+        "t": 187,
+        "m": 1127,
+        "n": 211874
+      },
+      {
+        "t": 189,
+        "m": 1139,
+        "n": 216408
+      },
+      {
+        "t": 205,
+        "m": 1235,
+        "n": 254408
+      },
+      {
+        "t": 210,
+        "m": 1265,
+        "n": 266913
+      }
+    ],
+    "caution": "Finite computation does not prove infinitude or the density bound."
+  },
+  "witness_208": {
+    "n": 208,
+    "passes": true,
+    "prime_checks": [
+      {
+        "prime": 2,
+        "required": 2,
+        "available": 3,
+        "passes": true
+      },
+      {
+        "prime": 3,
+        "required": 2,
+        "available": 3,
+        "passes": true
+      },
+      {
+        "prime": 5,
+        "required": 2,
+        "available": 2,
+        "passes": true
+      },
+      {
+        "prime": 7,
+        "required": 2,
+        "available": 2,
+        "passes": true
+      },
+      {
+        "prime": 11,
+        "required": 2,
+        "available": 2,
+        "passes": true
+      },
+      {
+        "prime": 19,
+        "required": 2,
+        "available": 2,
+        "passes": true
+      }
+    ]
+  },
+  "scope": "Exact finite examples only; no verification of the asymptotic proof."
+}
