@@ -1,0 +1,378 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,amsmath,amssymb,amsthm,booktabs,tabularx,microtype}
+\usepackage[a4paper,margin=27mm]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small Erd\H{o}s 727: a proposed $k=3$ extension}\fancyhead[R]{\small 17 September 2026}\fancyfoot[C]{\thepage}
+\setlength{\headheight}{14pt}\setlength{\parindent}{0pt}\setlength{\parskip}{6pt}
+\newtheorem{theorem}{Proposed theorem}
+\newtheorem{lemma}{Lemma}
+\newcommand{\ind}{\mathbf1}\newcommand{\MX}{\mathcal M_X}\newcommand{\NX}{N_X}
+\title{Six linear factors and a positive parameter bound:\\a proposed extension to $k=3$ in Erd\H{o}s problem 727}
+\author{AI-assisted mathematical continuation}
+\date{17 September 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+The supplied manuscript treats only $k=2$. This separate continuation uses
+$210=14\cdot15$ and $420=20\cdot21$ to factor all three consecutive integers
+$n+1,n+2,n+3$ for the family $n=210t^2+391t+179$. Six simple root classes replace
+the earlier four. A signed residue calculation at modulus 210 gives an average
+large-prime obstruction coefficient $5/6$. Combining this with uniform carry
+estimates gives the proposed lower limiting success proportion
+$0.255039321662196649\ldots$ for $((n+3)!)^2\mid(2n)!$. The argument is written
+below with its changed hypotheses and costs, not inferred from finite scans.
+\end{abstract}
+\textbf{Status and scope.} This is a new proposed $k=3$ argument developed during
+this review, not a result asserted in the supplied September 16 PDF or the older
+repository. It has not received independent peer review or formal verification.
+No claim of priority, accepted resolution, or a result for every fixed $k$ is
+made. Numerical checks in Section~\ref{computations} verify finite arithmetic
+only. All constants, including modulus 210, are fixed before the limiting
+parameter tends to infinity.
+
+\section{The explicit family and proposed bound}
+Put
+\begin{equation}\label{family}
+ H(t)=210t^2+391t+179,\qquad m=210t+195,\qquad n=H(t)=\frac{m(m+1)}{210}-3.
+\end{equation}
+As in the $k=2$ companion, write
+\begin{equation}\label{S}
+ S=4\sum_{J=4}^{\infty}2^{1-J}\log\frac{J+1}{J}.
+\end{equation}
+All logarithms are natural. Define
+\begin{equation}\label{rho}
+ \rho_3=1-\frac32 S-\frac5{12}\log3
+       =0.2550393216621966492464063134168790975\ldots .
+\end{equation}
+\begin{theorem}\label{main}
+The explicit family \eqref{family} satisfies
+\begin{equation}\label{bound}
+ \liminf_{T\to\infty}\frac1T
+ \#\{t\in[T,2T]\cap\mathbb Z:((H(t)+3)!)^2\mid(2H(t))!\}\ge\rho_3>0.
+\end{equation}
+Consequently the stated argument, if correct, yields infinitely many distinct
+positive solutions for $k=3$.
+\end{theorem}
+This statement does not upgrade the parameter bound for the original polynomial
+$6t^2+11t+3$, nor does it assert any finite interval must attain $\rho_3$.
+
+\section{All three denominator factors are controlled}
+The choice of 210 permits the simultaneous identities
+\begin{align}\label{sixfactors}
+ n+1&=\frac{(m-20)(m+21)}{210}=(6t+5)(35t+36),\nonumber\\
+ n+2&=\frac{(m-14)(m+15)}{210}=(t+1)(210t+181),\\
+ n+3&=\frac{m(m+1)}{210}=(14t+13)(15t+14).\nonumber
+\end{align}
+Each of the six displayed linear polynomials is primitive. Thus the denominator
+product $E(n)=(n+1)(n+2)(n+3)$ has exactly these six primitive factors, including
+multiplicities. Cancelling $(n!)^2$ gives
+\begin{equation}\label{criterion}
+ ((n+3)!)^2\mid(2n)!\iff E(n)^2\mid\binom{2n}{n}.
+\end{equation}
+For a prime $p$, Legendre's formula gives
+\begin{equation}\label{carries}
+ C_p(n):=v_p\binom{2n}{n}
+ =\sum_{j\ge1}\ind_{\{\{n/p^j\}\ge1/2\}}.
+\end{equation}
+It suffices to check $C_p(n)\ge2v_p(E(n))$ at primes dividing $E(n)$.
+
+Let
+\[
+ \mathcal C=\{0,1,-14,15,-20,21\},\qquad d_c=1-2c,
+\]
+\[
+ i_c=\begin{cases}3,&c=0,1,\\2,&c=-14,15,\\1,&c=-20,21.\end{cases}
+\]
+The maximum difference between two shifts is 41. For $p>41$, the prime is a unit
+modulo 210 and divides at most one $m+c$. If $p^e\mid m+c$, then
+$v_p(E(n))=e$ and $n\equiv-i_c\pmod{p^e}$. Since $i_c\le3$ and $p>41$,
+\[
+ \{n/p^j\}=1-i_c/p^j>1/2\quad(1\le j\le e).
+\]
+There are at least $e$ initial carries. In particular, when $v_p(E(n))=1$,
+failure is equivalent to $C_p(n)=1$: every later carry must be absent.
+
+For $m+c=ap$, direct substitution gives
+\begin{equation}\label{ap}
+ n=\frac{a^2p^2+d_cap}{210}-i_c,\qquad
+ \frac n{p^2}=\frac{a^2}{210}+\frac{d_ca}{210p}-\frac{i_c}{p^2}.
+\end{equation}
+The six derivative constants are $1,-1,29,-29,41,-41$, all nonzero modulo
+primes $p>41$.
+
+\section{Fixed primes, repeated primes and small growing primes}
+Work on
+\[
+ \MX=\{m\in[X,2X]\cap\mathbb Z:m\equiv195\pmod{210}\},\qquad
+ \NX=X/210+O(1).
+\]
+\subsection{Every fixed prime has a density-zero failure set}
+For each fixed $p$, primitivity in \eqref{sixfactors} implies
+\[
+ \limsup_{T\to\infty}\frac1T\#\{t\in[T,2T]:v_p(E(H(t)))\ge6h\}\le6p^{-h}.
+\]
+Each factor has either no root or one root modulo $p^h$. A product valuation
+at least $6h$ requires a factor valuation at least $h$.
+
+For fixed $K$, the number of residues modulo $p^L$ with at most $K$ carries in
+the first $L$ levels is
+\[
+ O_{p,K}\bigl(L^K\lceil p/2\rceil^L\bigr)=o(p^L).
+\]
+Indeed a digit at least $\lceil p/2\rceil$ forces a carry whatever the incoming
+carry; choose at most $K$ such digit positions. For $p\mid210$,
+$H(t)\equiv391t+179\pmod p$ is a permutation and
+$H'(t)=420t+391$ is always a unit. Simple lifting makes $H$ a permutation
+modulo every $p^L$.
+
+For $p\nmid210$, the prime is odd and the exact identity
+\begin{equation}\label{square}
+ 840H(t)+2521=(420t+391)^2
+\end{equation}
+reduces the issue to square-root fibers. Discard $p^h\mid420t+391$, a class of
+density $p^{-h}$. For $L>2h$ the remaining fibers have at most $2p^h$ elements:
+a root with valuation $s<h$ reduces to a unit square-root congruence modulo
+$p^{L-2s}$, with at most two roots and $p^s$ lifts. Send $L\to\infty$ first,
+then $h\to\infty$. This proves $C_p(H(t))\to\infty$ in probability. Combining
+it with the denominator valuation bound proves the fixed-prime assertion.
+All primes at most 41 are included here; no simplicity assertion is needed
+for those primes.
+
+\subsection{Repeated nonfixed factors}
+Fix $P>41$. For $p>P$, $p^2\mid m+c$ specifies one class modulo $210p^2$ and
+requires $p\le\sqrt{2X+21}$. Summing the progression count
+$X/(210p^2)+O(1)$ over six shifts and these primes gives
+\[
+ O(X/P)+O(\sqrt X).
+\]
+Its normalized limsup is $O(1/P)$. Outside this exception and the fixed-prime
+exceptions, all obstructing primes have $v_p(E(n))=1$.
+
+\subsection{Small growing primes}
+For $P<p\le X^\delta$, $0<\delta<1/4$, the six root classes in the $t$ variable
+are distinct and simple, with derivatives $d_c$ modulo $p$. On one root class,
+$H(t)$ maps bijectively modulo $p^L$ onto $n\equiv-i_c\pmod p$. Take
+$L=\lfloor\log_p(X/420)\rfloor$. The first carry is forced and each later
+no-carry digit has at most $(p+1)/2$ choices. Each permissible residue appears
+$O(X/p^L)$ times in the parameter interval. Since $(p+1)/(2p)\le4/7$, the
+bad-incidence count per root is at most
+\[
+ \frac{A X}p\exp\left(-c_0\frac{\log X}{\log p}\right),\qquad c_0=\log(7/4),
+\]
+for a fixed absolute constant $A$ (210 is fixed). The partial summation in
+Lemma 6.1 of the supplied draft\cite{draft} bounds the normalized total over
+six roots by a fixed constant times
+\[
+ \int_{1/\delta}^{\infty}e^{-c_0v}\frac{dv}{v}=: \varepsilon(\delta)/A',
+\]
+up to a term tending to zero with $X$. In particular
+$\varepsilon(\delta)\to0$ as $\delta\downarrow0$. The argument uses root
+lifting, not independence among the six factors.
+
+\section{Uniform joint carry estimates}
+For a fixed prime and shift, $ap-c\equiv195\pmod{210}$ implies
+$a=a_0+210b$. The variable $b$ runs through an interval of
+\begin{equation}\label{length}
+ L_{p,c}=X/(210p)+O(1)
+\end{equation}
+consecutive integers. Fix $\delta,\eta>0$, $J\ge4$, and a nonzero integer
+frequency vector $h=(h_2,\ldots,h_J)$. Suppose
+\begin{equation}\label{range}
+ X^\delta\le p\le X^{1/2-\eta},\qquad p\le X^{2/J-\eta}.
+\end{equation}
+In the phase $\sum_{j=2}^J h_j n/p^j$, remove the integer-valued variation of
+$h_2a^2/210$. If all higher frequencies vanish, the phase is linear with slope
+$h_2d_c/p$; its normalized geometric sum is $O_h(p^2/X)=o(1)$.
+
+Otherwise, with $j_0\ge3$ the smallest nonzero higher frequency, the remaining
+second derivative is
+\[
+ 420\sum_{j=3}^J h_jp^{2-j}
+ =420h_{j_0}p^{2-j_0}(1+O_h(p^{-1})).
+\]
+The first nonzero term dominates for fixed $h$ and growing $p$. The standard
+second-derivative estimate\cite{robert}, divided by $L_{p,c}\asymp X/p$, gives
+\[
+ O_h\left(p^{-(j_0-2)/2}+p^{j_0/2}/X\right)
+ =O_h\left(X^{-\delta/2}+X^{-J\eta/2}\right)=o(1).
+\]
+These estimates are uniform in the primes in \eqref{range} and all six shifts.
+The fixed finite trigonometric majorant/minorant argument of draft Lemma
+7.1 converts them into uniform box counts. Thus
+\begin{equation}\label{box}
+ \frac1{L_{p,c}}\#\{a:\{n/p^j\}<1/2\ (2\le j\le J)\}
+ =2^{1-J}+o_{\delta,\eta,J}(1).
+\end{equation}
+No independence of digit levels at a fixed prime is asserted. The Fourier
+frequencies are fixed first, so the exact relations with frequencies growing
+with $p$ do not contradict this argument.
+
+For $X^{1/2+\eta}\le p\le X^{2/3-\eta}$, the single phase $h n/p^3$ has second
+derivative $420h/p$. Its normalized exponential sum is
+$O_h(p^{-1/2}+p^{3/2}/X)=o(1)$, uniformly in all six shifts. It follows that
+\begin{equation}\label{middle}
+ \frac1{L_{p,c}}\#\{a:\{n/p^3\}<1/2\}=1/2+o_\eta(1)
+\end{equation}
+in this intermediate range.
+
+\section{The signed residue calculation at large primes}
+If $p\ge X^{1/2+\eta}$, then $a/p=O(X^{-2\eta})$. In \eqref{ap}, the leading
+fractional part is $s/210$, where
+\[
+ s\equiv(195+c)^2p^{-2}\pmod{210},\qquad 0\le s<210.
+\]
+At $s=0$ the fraction is below one half exactly when $d_c>0$. At $s=105$ it
+is below one half exactly when $d_c<0$. Away from these boundaries it is below
+one half exactly when $0<s<105$. These signs are uniform for large $X$ because
+$d_cap-210i_c$ has the sign of $d_c$ as $ap=m+c\to\infty$.
+
+The 48 units modulo 210 have six square classes, each of multiplicity eight.
+The table lists the numerator $s$ for each of the six shifts; its final column
+counts the shifts which fail to supply the second carry.
+\begin{center}
+\small
+\begin{tabular}{r|rrrrrr|r}
+\toprule
+$p^{-2}\bmod210$ & $c=0$ & $1$ & $-14$ & $15$ & $-20$ & $21$ & bad count\\
+\midrule
+1   &15 &196&1  &0&175&36 &3\\
+79  &135&154&79 &0&175&114&1\\
+109 &165&154&109&0&175&144&0\\
+121 &135&196&121&0&175&156&0\\
+151 &165&196&151&0&175&186&0\\
+169 &15 &154&169&0&175&204&1\\
+\bottomrule
+\end{tabular}
+\end{center}
+In particular the zero column $c=15$ is \emph{not} bad: its negative correction
+puts the fraction just below one, not near zero from above. The average bad
+count over prime unit classes is the exact rational value
+\begin{equation}\label{b}
+ b_3=\frac{8(3+1+0+0+0+1)}{48}=\frac56.
+\end{equation}
+This table is derived from exact modular arithmetic, not fitted to scan data.
+
+\section{Prime summation, boundary coverage and completion}
+For fixed unit $v\pmod{210}$ and $0<\alpha<\beta$, the unconditional
+fixed-modulus reciprocal-prime asymptotic\cite[eq.~(6)]{keliher} gives
+\begin{equation}\label{AP}
+ \sum_{\substack{X^\alpha<p\le X^\beta\\p\equiv v\; (210)}}\frac1p
+ =\frac1{48}\log\frac\beta\alpha+o(1).
+\end{equation}
+This is the classical fixed-modulus formula, not the GRH-dependent varying-modulus
+estimates later in that reference. An upper endpoint $2X+21$ is allowed with
+$\beta=1$. By \eqref{length}, the total $O(1)$ progression errors contribute
+$O(\pi(2X+21)/X)=o(1)$ after normalization. On primes $p\ge X^\delta$,
+a uniform conditional error $o(1)$ sums to $o(1)$ because the reciprocal-prime
+sum is bounded at fixed $\delta$.
+
+Below $X^{1/2}$, omit narrow exponent-boundary neighborhoods and use the bands
+\[
+ X^{\max\{\delta,2/(J+1)\}+\eta}<p<X^{2/J-\eta},\qquad
+ J\ge4,\quad 2/J>\delta.
+\]
+There are finitely many at fixed $\delta$. A bad valuation-one prime must have
+no carry at levels $2,\ldots,J$, so \eqref{box} bounds its cost per shift by
+$2^{1-J}\log((J+1)/J)+o(1)$. Summing six shifts and then letting the cutoff
+shrink gives at most
+\[
+ 6\sum_{J\ge4}2^{1-J}\log\frac{J+1}{J}=\frac32 S.
+\]
+For the intermediate primes of \eqref{middle}, only the residue-selected bad
+shifts can obstruct. Equation \eqref{AP}, the table, and \eqref{middle} bound
+their cost by
+\[
+ \frac{b_3}{2}\log\frac{2/3-\eta}{1/2+\eta}+o(1).
+\]
+For $p>X^{2/3-\eta}$, count every incidence in a residue-selected bad shift,
+without imposing a further carry condition. The cost is at most
+\[
+ b_3\log\frac1{2/3-\eta}+o(1).
+\]
+As $\eta\downarrow0$ these two costs sum to
+$b_3(\log(3/2)+\tfrac12\log(4/3))=(5/12)\log3$.
+
+For explicit coverage, let
+\[
+ \mathcal E_\delta=\{\delta,1/2,2/3\}\cup
+ \{2/J:J\ge4,\ \delta\le2/J\le1/2\}.
+\]
+For $0<\eta<\min(\delta/2,1/12)$ the union of the bands
+$[X^{\alpha-\eta},X^{\alpha+\eta}]$, $\alpha\in\mathcal E_\delta$, has total
+normalized incidence cost at most
+\[
+ 6\sum_{\alpha\in\mathcal E_\delta}
+ \log\frac{\alpha+\eta}{\alpha-\eta}+o(1).
+\]
+This tends to zero as $\eta\downarrow0$ at fixed $\delta$. The lower bands
+partition the remaining exponents between $\delta$ and $1/2$; the intermediate
+and large ranges cover the rest. There is no uncovered exponent interval.
+
+Take $X\to\infty$ first with $P,\delta,\eta$ fixed. The failure limsup is at
+most the sum of the fixed/repeated cost $O(1/P)$, the small-prime cost
+$\varepsilon(\delta)$, the boundary cost just displayed, the finite lower-band
+sum, and the intermediate/large-prime costs. Next take $\eta\downarrow0$, then
+$\delta\downarrow0$, then $P\to\infty$. The resulting upper bound for failure
+is $(3/2)S+(5/12)\log3=1-\rho_3$.
+
+Finally $X=210T$ gives the $t$ interval
+$[T-195/210,2T-195/210]$, differing from $[T,2T]$ by $O(1)$ integers, and
+$\NX=T+O(1)$. Taking complements proves \eqref{bound}. Strict positivity needs
+no decimal evaluation: $S\le1/4$ and $\log3<11/10$ give
+\[
+ \rho_3\ge\frac58-\frac5{12}\log3>\frac16>0.
+\]
+The polynomial $H$ is strictly increasing for $t\ge0$, so the successful
+parameters give infinitely many distinct $n$. This concludes the proposed proof.
+
+\section{Finite checks and remaining review}\label{computations}
+Two implementations use different factorization and carry computations:
+Python trial division with explicit digit addition, and a C++ smallest-prime-factor
+sieve with Legendre sums. They agree on the first 1,000 parameters and on a
+separate fixed 1,000-parameter high-range comparison. The larger C++ scans give
+\begin{center}
+\begin{tabular}{rrr}
+\toprule
+Parameter interval & valid parameters & observed fraction\\
+\midrule
+$[0,1000)$ &126&0.12600\\
+$[10000,20000)$ &1880&0.18800\\
+$[100000,200000)$ &21456&0.21456\\
+\bottomrule
+\end{tabular}
+\end{center}
+The cross-check on $[199000,200000)$ agrees in all 1,000 cases, of which 240
+are valid. At $t=61$, $m=13005$ and $n=805440$; both methods certify
+\[
+ (805443!)^2\mid1610880!.
+\]
+The prime-by-prime certificate is saved separately. A literal-factorial check
+for every $0\le n\le500$ agrees with the binomial criterion and carry test.
+These statements are finite arithmetic evidence, not a numerical proof of the
+Fourier estimates, prime sums, or limit theorem.
+
+The highest-priority independent checks are the six-factor adaptation of root
+lifting, the signed large-prime table (especially its zero column), fixed-modulus
+prime weighting, and the uniform-error and limit-order arguments. The next
+unresolved extension is not obtained by merely incrementing $k$: one would need
+to control $n+4$ as well. This document makes no assertion for $k\ge4$.
+
+\begin{thebibliography}{9}
+\bibitem{draft} Supplied candidate manuscript, \emph{A quadratic-family approach
+to the $k=2$ case of Erd\H{o}s problem 727}, September 16, 2026, 12 pages.
+Preserved at \path{papers/quadratic-family-expanded-2026-09-16.pdf}.
+\bibitem{general} Companion continuation, \emph{A stronger parameter bound in a
+different family: a generalized continuation for Erd\H{o}s problem 727, $k=2$},
+September 17, 2026. Preserved at
+\path{papers/generalized-families-2026-09-17.pdf}.
+\bibitem{robert} O. Robert, \emph{On van der Corput's $k$-th derivative test for
+exponential sums}, Indagationes Mathematicae 27 (2016), 559--589,
+Theorem 1. DOI: 10.1016/j.indag.2015.11.009.
+\bibitem{keliher} D. Keliher and E. S. Lee, \emph{On the constants in Mertens'
+theorems for primes in arithmetic progressions}, arXiv:2306.09981v2 (2024),
+equation (6), page 2. The unconditional fixed-modulus formula only is used.
+\end{thebibliography}
+\end{document}
