@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'papers/k3-extension-2026-09-17.tex'
+      - '.github/workflows/build-k3-paper.yml'
   workflow_dispatch:
 
 permissions:
@@ -33,7 +34,7 @@ jobs:
 
       - name: Commit generated PDF when changed
         run: |
-          if git diff --quiet -- papers/k3-extension-2026-09-17.pdf; then
+          if [ -z "$(git status --porcelain -- papers/k3-extension-2026-09-17.pdf)" ]; then
             echo 'Generated PDF is unchanged.'
             exit 0
           fi
