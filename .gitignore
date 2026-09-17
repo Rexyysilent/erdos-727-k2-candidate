@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.aux
+*.log
+*.out
+/scan_family
+/scan_general_family
+/scan_general
+/search.json
+/scan_k3
