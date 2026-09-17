@@ -2,6 +2,8 @@
 
 17 September 2026. **New proposed argument, seeking independent review.**
 
+**Complete paper:** [seven-page PDF](../papers/k3-extension-2026-09-17.pdf) · [editable LaTeX source](../papers/k3-extension-2026-09-17.tex). This file is the compact review-oriented companion; the PDF/TeX pair contains the complete written argument.
+
 The supplied k=2 manuscript explicitly stops at k=2 because its four-factor
 construction does not control `n+3`. This note records a separate six-factor
 construction. It is not claimed to solve the problem for every fixed k, and no
