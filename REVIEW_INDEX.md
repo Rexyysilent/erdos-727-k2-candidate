@@ -4,11 +4,22 @@
 This index is additive. The existing README, September 7 manuscript, original
 verifier and September 12 results are preserved unchanged.
 
-**Publication note.** The dated review PDFs were rendered before authenticated GitHub
-write actions became available in this session. Any embedded “not pushed” wording
-records that preparation-time environment; this index and Git history are the current
-publication record. `README.md` and the pre-existing proof/verifier/results remain
-unchanged.
+**Publication note.** The complete seven-page `k=3` continuation is now stored
+in the repository as both a rendered PDF and its editable LaTeX source:
+
+- [`papers/k3-extension-2026-09-17.pdf`](papers/k3-extension-2026-09-17.pdf)
+- [`papers/k3-extension-2026-09-17.tex`](papers/k3-extension-2026-09-17.tex)
+
+The source was compiled twice with `pdflatex`; the repository workflow verifies
+that the build completes as a seven-page paper before committing the generated
+PDF. During preparation, a local rebuild from this exact source was also rendered
+and compared page-by-page with the original seven-page K3 PDF, with no rendered
+page differences at the comparison resolution. The existing `README.md` and the
+pre-existing proof/verifier/results remain unchanged.
+
+The supplied September 16 twelve-page k=2 PDF and the other locally rendered
+review PDFs are still not stored in this compact repository update. Their hashes
+and validation boundaries remain recorded in `reviews/VALIDATION_2026-09-17.md`.
 
 ## Read in this order
 
@@ -19,16 +30,14 @@ unchanged.
    quadratic families, including a proposed parameter lower bound
    `0.44232553173768…` for `210t²+419t+207` and fixed finite-family counting
    bounds.
-3. `reviews/K3_EXTENSION_2026-09-17.md`: a separate proposed `k=3` proof for
-   `210t²+391t+179`, with lower parameter proportion
+3. For the separate proposed `k=3` proof for `210t²+391t+179`, read the
+   [complete PDF](papers/k3-extension-2026-09-17.pdf) or its
+   [LaTeX source](papers/k3-extension-2026-09-17.tex). The shorter
+   `reviews/K3_EXTENSION_2026-09-17.md` remains a compact review-oriented
+   companion. The proposed lower parameter proportion is
    `0.2550393216621966…`.
 4. `reviews/VALIDATION_2026-09-17.md`: exact test and evidence boundaries.
 5. `reviews/FUTURE_WORK.md`: concrete next proof and verification branches.
-
-The supplied 12-page expanded PDF and locally rendered review PDFs were checked
-during preparation but are not stored in this text-first repository commit. The
-supplied-PDF SHA-256 and the validation boundary are recorded in
-`reviews/VALIDATION_2026-09-17.md`.
 
 ## Principal distinctions
 
@@ -77,6 +86,17 @@ python tools/verify_k3.py --constants
 python tools/verify_k3.py --t 61
 ```
 
+Rebuild the complete K3 paper locally with a standard TeX Live installation:
+
+```sh
+cd papers
+pdflatex -interaction=nonstopmode -halt-on-error k3-extension-2026-09-17.tex
+pdflatex -interaction=nonstopmode -halt-on-error k3-extension-2026-09-17.tex
+```
+
+The repository also contains `.github/workflows/build-k3-paper.yml`, which runs
+that two-pass build on changes to the K3 source and commits the generated PDF.
+
 Exact finite scanning with GCC/Clang (unsigned 128-bit extension required):
 
 ```sh
@@ -94,6 +114,6 @@ arithmetic. Displayed fractions are rounded decimal summaries.
 
 The checked tools and regression tests are included below `tools/` and `tests/`.
 The larger machine-readable evidence bundle is retained separately from this compact
-text-first repository update. The 91 tests and finite scans do not formally verify
-the analytic arguments. No claim of priority, independent peer approval, a current
-problem-status change, or a result for all fixed `k>=2` is made.
+repository update. The 91 tests and finite scans do not formally verify the analytic
+arguments. No claim of priority, independent peer approval, a current problem-status
+change, or a result for all fixed `k>=2` is made.
