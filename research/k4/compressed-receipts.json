@@ -1,0 +1,71 @@
+{
+  "format": "gzip; original bytes verified after decompression",
+  "files": [
+    {
+      "path": "research/k4/432-linear-refinement-optimization.json.gz",
+      "uncompressed_bytes": 395357,
+      "compressed_bytes": 8491,
+      "uncompressed_sha256": "5ba9500347685130e1a3d6da6e0dbcf653401fed4a65c77a58f774a17c5bf478"
+    },
+    {
+      "path": "research/k4/noneven-483840-reverse-residues.json.gz",
+      "uncompressed_bytes": 3774843,
+      "compressed_bytes": 86897,
+      "uncompressed_sha256": "bcf9cb8af6a6710cdef4401cfc6890be4468ab3eb1c72c1d152916a28b22ee6d"
+    },
+    {
+      "path": "research/k4/noneven-40320-reverse-residues.json.gz",
+      "uncompressed_bytes": 1038491,
+      "compressed_bytes": 25696,
+      "uncompressed_sha256": "b4455f59e0b379b62d7a65b967a2953b361141c511e05f62895c28b2ad1cf1f0"
+    },
+    {
+      "path": "research/k4/norm688-coarse-linear-and-high.json.gz",
+      "uncompressed_bytes": 231766,
+      "compressed_bytes": 19254,
+      "uncompressed_sha256": "c3e4bb45b676bbc13967ab6f506fd15581e91399435f597e1689eb3d8b07bd64"
+    },
+    {
+      "path": "research/k4/linear-refinement-optimization.json.gz",
+      "uncompressed_bytes": 798655,
+      "compressed_bytes": 21461,
+      "uncompressed_sha256": "2957c936f79d799318375ff1e5e18b9c74cca0745dafef476f3361772b9119f2"
+    },
+    {
+      "path": "research/k4/norm432-coarse-linear-and-high.json.gz",
+      "uncompressed_bytes": 152126,
+      "compressed_bytes": 11850,
+      "uncompressed_sha256": "e27360a68947220c39331fdab3898a80e8df7a0018d04a0cdecca101a9d91062"
+    },
+    {
+      "path": "research/k4/norm120-coarse-linear-and-high.json.gz",
+      "uncompressed_bytes": 141506,
+      "compressed_bytes": 11810,
+      "uncompressed_sha256": "8635cc343f1cb52a8f50501b52795c6afeadd460681a56199084f44932fa20b0"
+    },
+    {
+      "path": "research/k4/norm152-coarse-linear-and-high.json.gz",
+      "uncompressed_bytes": 204647,
+      "compressed_bytes": 17563,
+      "uncompressed_sha256": "bda13c5dc3f10ce5608f36af5f5f9e4d0d2a815f79105fcc05c8f8a9140c5ef4"
+    },
+    {
+      "path": "research/k4/norm208-coarse-linear-and-high.json.gz",
+      "uncompressed_bytes": 211508,
+      "compressed_bytes": 17182,
+      "uncompressed_sha256": "8ae159b7d301ebd4db20475cf47bc66f4dd0d61c8daf8df0a00f1b4b7bf36b88"
+    },
+    {
+      "path": "research/k4/noneven-483840-residues.json.gz",
+      "uncompressed_bytes": 3774753,
+      "compressed_bytes": 86794,
+      "uncompressed_sha256": "ab57dbcb8ac13b0d7244b369b3524d583fb5ffc4530382e3887e3c92e9fb655f"
+    },
+    {
+      "path": "research/k4/noneven-40320-residues.json.gz",
+      "uncompressed_bytes": 1038593,
+      "compressed_bytes": 25728,
+      "uncompressed_sha256": "37fa7557ca881464143962abde5d7805547d5f8c2d530afa726574fadda1f5d2"
+    }
+  ]
+}

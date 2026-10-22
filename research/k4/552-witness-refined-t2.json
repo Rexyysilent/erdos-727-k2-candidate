@@ -1,0 +1,1608 @@
+{
+  "k": 4,
+  "t": 2,
+  "step": 63987840,
+  "residue": 23971,
+  "y": 127999651,
+  "m": 29680997565435,
+  "n": 4195055316568514657639543,
+  "passes": true,
+  "factorizations": [
+    {
+      "shift": 1,
+      "value": 16383910656109080,
+      "prime_factors": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          23,
+          1
+        ],
+        [
+          2251,
+          1
+        ],
+        [
+          376734119,
+          1
+        ]
+      ]
+    },
+    {
+      "shift": 1,
+      "value": 16383910656131712,
+      "prime_factors": [
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          23,
+          1
+        ],
+        [
+          2339,
+          1
+        ],
+        [
+          29374097,
+          1
+        ]
+      ]
+    },
+    {
+      "shift": 2,
+      "value": 127999554,
+      "prime_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          23,
+          1
+        ],
+        [
+          927533,
+          1
+        ]
+      ]
+    },
+    {
+      "shift": 2,
+      "value": 127999748,
+      "prime_factors": [
+        [
+          2,
+          2
+        ],
+        [
+          67,
+          1
+        ],
+        [
+          103,
+          1
+        ],
+        [
+          4637,
+          1
+        ]
+      ]
+    },
+    {
+      "shift": 2,
+      "value": 16383910656128400,
+      "prime_factors": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          23,
+          1
+        ],
+        [
+          2569783339,
+          1
+        ]
+      ]
+    },
+    {
+      "shift": 3,
+      "value": 127999610,
+      "prime_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          1499,
+          1
+        ],
+        [
+          8539,
+          1
+        ]
+      ]
+    },
+    {
+      "shift": 3,
+      "value": 127999692,
+      "prime_factors": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          23,
+          1
+        ],
+        [
+          154589,
+          1
+        ]
+      ]
+    },
+    {
+      "shift": 3,
+      "value": 16383910656120672,
+      "prime_factors": [
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          23,
+          1
+        ],
+        [
+          1193,
+          1
+        ],
+        [
+          16057,
+          1
+        ],
+        [
+          55337,
+          1
+        ]
+      ]
+    },
+    {
+      "shift": 4,
+      "value": 16383892992178080,
+      "prime_factors": [
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          23,
+          1
+        ],
+        [
+          347,
+          1
+        ],
+        [
+          431,
+          1
+        ],
+        [
+          9922961,
+          1
+        ]
+      ]
+    },
+    {
+      "shift": 4,
+      "value": 16383928320081756,
+      "prime_factors": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          23,
+          1
+        ],
+        [
+          283,
+          1
+        ],
+        [
+          25867,
+          1
+        ],
+        [
+          128717,
+          1
+        ]
+      ]
+    }
+  ],
+  "prime_checks": [
+    {
+      "p": 2,
+      "product_valuation": 4,
+      "required": 8,
+      "available_carries": 48,
+      "factorial_margin": 40
+    },
+    {
+      "p": 3,
+      "product_valuation": 3,
+      "required": 6,
+      "available_carries": 27,
+      "factorial_margin": 21
+    },
+    {
+      "p": 5,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 15,
+      "factorial_margin": 13
+    },
+    {
+      "p": 11,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 10,
+      "factorial_margin": 8
+    },
+    {
+      "p": 67,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 6,
+      "factorial_margin": 4
+    },
+    {
+      "p": 103,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 6,
+      "factorial_margin": 4
+    },
+    {
+      "p": 283,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 6,
+      "factorial_margin": 4
+    },
+    {
+      "p": 347,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 6,
+      "factorial_margin": 4
+    },
+    {
+      "p": 431,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 6,
+      "factorial_margin": 4
+    },
+    {
+      "p": 1193,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 3,
+      "factorial_margin": 1
+    },
+    {
+      "p": 1499,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 6,
+      "factorial_margin": 4
+    },
+    {
+      "p": 2251,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 5,
+      "factorial_margin": 3
+    },
+    {
+      "p": 2339,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 7,
+      "factorial_margin": 5
+    },
+    {
+      "p": 4637,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 3,
+      "factorial_margin": 1
+    },
+    {
+      "p": 8539,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 4,
+      "factorial_margin": 2
+    },
+    {
+      "p": 16057,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 2,
+      "factorial_margin": 0
+    },
+    {
+      "p": 25867,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 3,
+      "factorial_margin": 1
+    },
+    {
+      "p": 55337,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 4,
+      "factorial_margin": 2
+    },
+    {
+      "p": 128717,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 2,
+      "factorial_margin": 0
+    },
+    {
+      "p": 154589,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 4,
+      "factorial_margin": 2
+    },
+    {
+      "p": 927533,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 2,
+      "factorial_margin": 0
+    },
+    {
+      "p": 9922961,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 3,
+      "factorial_margin": 1
+    },
+    {
+      "p": 29374097,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 3,
+      "factorial_margin": 1
+    },
+    {
+      "p": 376734119,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 2,
+      "factorial_margin": 0
+    },
+    {
+      "p": 2569783339,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 2,
+      "factorial_margin": 0
+    }
+  ],
+  "scope": "Exact finite certificate; not an infinitude proof.",
+  "lucas_prime_certificates": [
+    {
+      "p": 2,
+      "base_case": true
+    },
+    {
+      "p": 3,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 5,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "p": 7,
+      "lucas_witness": 3,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 11,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          5,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 13,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 17,
+      "lucas_witness": 3,
+      "p_minus_one_factors": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "p": 19,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "p": 23,
+      "lucas_witness": 5,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 29,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          2
+        ],
+        [
+          7,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 31,
+      "lucas_witness": 3,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 37,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "p": 41,
+      "lucas_witness": 6,
+      "p_minus_one_factors": [
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 43,
+      "lucas_witness": 3,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 47,
+      "lucas_witness": 5,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          23,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 53,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          2
+        ],
+        [
+          13,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 59,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          29,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 61,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 67,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 71,
+      "lucas_witness": 7,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 79,
+      "lucas_witness": 3,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 83,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          41,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 97,
+      "lucas_witness": 5,
+      "p_minus_one_factors": [
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 103,
+      "lucas_witness": 5,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          17,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 107,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          53,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 149,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          2
+        ],
+        [
+          37,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 151,
+      "lucas_witness": 6,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          2
+        ]
+      ]
+    },
+    {
+      "p": 167,
+      "lucas_witness": 5,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          83,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 173,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          2
+        ],
+        [
+          43,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 181,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 191,
+      "lucas_witness": 19,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          19,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 223,
+      "lucas_witness": 3,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          37,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 239,
+      "lucas_witness": 7,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          17,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 251,
+      "lucas_witness": 6,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          5,
+          3
+        ]
+      ]
+    },
+    {
+      "p": 283,
+      "lucas_witness": 3,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          47,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 313,
+      "lucas_witness": 10,
+      "p_minus_one_factors": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 347,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          173,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 383,
+      "lucas_witness": 5,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          191,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 431,
+      "lucas_witness": 7,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          43,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 461,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          23,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 479,
+      "lucas_witness": 13,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          239,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 503,
+      "lucas_witness": 5,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          251,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 683,
+      "lucas_witness": 5,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          31,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 907,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          151,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 1193,
+      "lucas_witness": 3,
+      "p_minus_one_factors": [
+        [
+          2,
+          3
+        ],
+        [
+          149,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 1367,
+      "lucas_witness": 5,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          683,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 1423,
+      "lucas_witness": 3,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          79,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 1499,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          107,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 1747,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          97,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 2251,
+      "lucas_witness": 7,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          3
+        ]
+      ]
+    },
+    {
+      "p": 2339,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          167,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 4597,
+      "lucas_witness": 5,
+      "p_minus_one_factors": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          383,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 4637,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          2
+        ],
+        [
+          19,
+          1
+        ],
+        [
+          61,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 5521,
+      "lucas_witness": 11,
+      "p_minus_one_factors": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          23,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 6917,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          2
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          19,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 8539,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1423,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 16057,
+      "lucas_witness": 7,
+      "p_minus_one_factors": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          223,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 25867,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          479,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 55337,
+      "lucas_witness": 3,
+      "p_minus_one_factors": [
+        [
+          2,
+          3
+        ],
+        [
+          6917,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 128717,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          2
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          4597,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 145121,
+      "lucas_witness": 3,
+      "p_minus_one_factors": [
+        [
+          2,
+          5
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          907,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 154589,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          2
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          5521,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 788761,
+      "lucas_witness": 11,
+      "p_minus_one_factors": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          313,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 927533,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          2
+        ],
+        [
+          461,
+          1
+        ],
+        [
+          503,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 9922961,
+      "lucas_witness": 6,
+      "p_minus_one_factors": [
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          71,
+          1
+        ],
+        [
+          1747,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 29374097,
+      "lucas_witness": 3,
+      "p_minus_one_factors": [
+        [
+          2,
+          4
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          79,
+          1
+        ],
+        [
+          1367,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 188367059,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          59,
+          1
+        ],
+        [
+          145121,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 376734119,
+      "lucas_witness": 11,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          188367059,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 2569783339,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          181,
+          1
+        ],
+        [
+          788761,
+          1
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "base_commit": "8c1e3e50040224b5d3394f91f8c491be8307cd47",
+  "date_utc": "2026-10-22",
+  "status": "Partial research; no k=4 infinitude proof",
+  "full_test_suite": {
+    "command": "python -m pytest tests -q",
+    "passed": 97,
+    "failed": 0,
+    "duration_seconds": 7.18
+  },
+  "new_tests": {
+    "passed": 6,
+    "scope": "Finite certificates, primality proofs, identities, large-prime lemma examples, independent scanner comparison and smallest-interval factorization basis"
+  },
+  "cpp_compile": {
+    "command": "g++ -std=c++17 -O3 -Wall -Wextra tools/scan_k4_quartic.cpp -o /tmp/scan_k4_quartic",
+    "exit_code": 0,
+    "warnings": 0
+  },
+  "sha256": {
+    "tools/scan_k4_quartic.cpp": "0a9eecda8148a3d3683fb9ed3d24b1fa3e7729926c373fa4ae6a782b772786ff",
+    "tests/test_k4_research.py": "9f43d1125f1ca9b7e0753982a05eb6facb9bc2db5a278895cfde687b6c6ad70e",
+    "research/k4/quartic-witness-t8.json": "94ed23cf11d637df046b35165001b0b62ccc575faed37d3f8bb5a3bc7a8c1cda",
+    "research/k4/552-witness-refined-t2.json": "5e28d9f0178222b1d1c2c9187f9d065dbc3fde847bd1275952dda985b3740e33",
+    "research/k4/432-witness-coarse-t1.json": "b2cb39164d54a1d15ccb52a05f3b36579ed8ae4544ff47348753c620c1c6a9fd",
+    "research/k4/linear-residues-23971.json": "081aed6eb624dd7a561c2bf6095be76f41e66c94bc4d0468c73f65a5715fbcec"
+  }
+}

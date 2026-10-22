@@ -1,0 +1,148 @@
+{
+  "k": 4,
+  "t": 8,
+  "x": 1694,
+  "m": 2869845,
+  "n": 39219110444,
+  "quadratic_pairs": [
+    [
+      2869825,
+      2869866
+    ],
+    [
+      2869831,
+      2869860
+    ],
+    [
+      2869845,
+      2869846
+    ],
+    [
+      2868152,
+      2871540
+    ]
+  ],
+  "passes": true,
+  "prime_checks": [
+    {
+      "p": 2,
+      "product_valuation": 5,
+      "required": 10,
+      "available_carries": 12,
+      "factorial_margin": 2
+    },
+    {
+      "p": 3,
+      "product_valuation": 2,
+      "required": 4,
+      "available_carries": 8,
+      "factorial_margin": 4
+    },
+    {
+      "p": 5,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 7,
+      "factorial_margin": 5
+    },
+    {
+      "p": 7,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 8,
+      "factorial_margin": 6
+    },
+    {
+      "p": 11,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 7,
+      "factorial_margin": 5
+    },
+    {
+      "p": 23,
+      "product_valuation": 2,
+      "required": 4,
+      "available_carries": 6,
+      "factorial_margin": 2
+    },
+    {
+      "p": 31,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 4,
+      "factorial_margin": 2
+    },
+    {
+      "p": 37,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 3,
+      "factorial_margin": 1
+    },
+    {
+      "p": 43,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 5,
+      "factorial_margin": 3
+    },
+    {
+      "p": 53,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 4,
+      "factorial_margin": 2
+    },
+    {
+      "p": 359,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 3,
+      "factorial_margin": 1
+    },
+    {
+      "p": 571,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 3,
+      "factorial_margin": 1
+    },
+    {
+      "p": 6833,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 2,
+      "factorial_margin": 0
+    },
+    {
+      "p": 17393,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 2,
+      "factorial_margin": 0
+    },
+    {
+      "p": 51217,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 2,
+      "factorial_margin": 0
+    },
+    {
+      "p": 77563,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 2,
+      "factorial_margin": 0
+    },
+    {
+      "p": 159437,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 2,
+      "factorial_margin": 0
+    }
+  ],
+  "scope": "Exact finite certificate; not an infinitude proof."
+}

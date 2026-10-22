@@ -1,0 +1,180 @@
+{
+  "scope": "Bounded exact rational-factorization search, not an infinitude proof.",
+  "raw_hits": 127846,
+  "primitive_distinct_quartics": 87016,
+  "split_count_distribution": [
+    {
+      "split_quadratics": 0,
+      "zero_discriminants": 0,
+      "count": 86735
+    },
+    {
+      "split_quadratics": 1,
+      "zero_discriminants": 0,
+      "count": 239
+    },
+    {
+      "split_quadratics": 2,
+      "zero_discriminants": 0,
+      "count": 36
+    },
+    {
+      "split_quadratics": 3,
+      "zero_discriminants": 0,
+      "count": 5
+    },
+    {
+      "split_quadratics": 4,
+      "zero_discriminants": 0,
+      "count": 1
+    }
+  ],
+  "candidates_with_at_least_three_split_quadratics": [
+    {
+      "u": [
+        7,
+        5,
+        1,
+        2
+      ],
+      "B": "-405/8",
+      "L": "35",
+      "D": "315/2",
+      "E": "-41751/256",
+      "split_quadratics": 4,
+      "zero_discriminants": 0,
+      "discriminants": [
+        "169/4",
+        "249/4",
+        "249/4",
+        "361/4",
+        "121/4",
+        "681/4",
+        "249/4",
+        "529/4"
+      ]
+    },
+    {
+      "u": [
+        7,
+        5,
+        1,
+        3
+      ],
+      "B": "-835/18",
+      "L": "35",
+      "D": "320/3",
+      "E": "-144131/1296",
+      "split_quadratics": 3,
+      "zero_discriminants": 0,
+      "discriminants": [
+        "304/9",
+        "484/9",
+        "484/9",
+        "736/9",
+        "196/9",
+        "1456/9",
+        "544/9",
+        "964/9"
+      ]
+    },
+    {
+      "u": [
+        17,
+        15,
+        13,
+        3
+      ],
+      "B": "-11515/18",
+      "L": "1105",
+      "D": "35840/3",
+      "E": "23002189/1296",
+      "split_quadratics": 3,
+      "zero_discriminants": 0,
+      "discriminants": [
+        "7744/9",
+        "10084/9",
+        "8164/9",
+        "10816/9",
+        "8464/9",
+        "11524/9",
+        "4804/9",
+        "18064/9"
+      ]
+    },
+    {
+      "u": [
+        27,
+        9,
+        13,
+        39
+      ],
+      "B": "-43771/50",
+      "L": "32643/5",
+      "D": "177408/5",
+      "E": "-447387059/10000",
+      "split_quadratics": 3,
+      "zero_discriminants": 0,
+      "discriminants": [
+        "13456/25",
+        "37636/25",
+        "5476/25",
+        "78016/25",
+        "14436/25",
+        "64656/25",
+        "-2624/25",
+        "14116/25"
+      ]
+    },
+    {
+      "u": [
+        39,
+        33,
+        9,
+        17
+      ],
+      "B": "-169247/49",
+      "L": "131274/7",
+      "D": "3088800/7",
+      "E": "1044624520/2401",
+      "split_quadratics": 3,
+      "zero_discriminants": 0,
+      "discriminants": [
+        "216841/49",
+        "311089/49",
+        "229441/49",
+        "340825/49",
+        "130321/49",
+        "538729/49",
+        "216225/49",
+        "432441/49"
+      ]
+    },
+    {
+      "u": [
+        39,
+        45,
+        65,
+        195
+      ],
+      "B": "-43771/2",
+      "L": "816075",
+      "D": "22176000",
+      "E": "-447387059/16",
+      "split_quadratics": 3,
+      "zero_discriminants": 0,
+      "discriminants": [
+        "400",
+        "84100",
+        "5476",
+        "78016",
+        "14436",
+        "64656",
+        "-2624",
+        "14116"
+      ]
+    }
+  ],
+  "exhaustive_u_bound": 250,
+  "orderings_tested": 1906593000
+}

@@ -1,0 +1,8 @@
+{
+  "symbolic_taylor_identities": 4,
+  "endpoint_checks": 12,
+  "large_coprime_bases": 128,
+  "exact_carry_predictions_checked": 4608,
+  "result": "All checks passed; exact integer/rational arithmetic.",
+  "scope": "Verifies the algebra and stabilized signatures, not infinitude."
+}

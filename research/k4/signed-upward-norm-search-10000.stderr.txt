@@ -1,0 +1,1 @@
+Delta -839; abs(P),Q <= 10000; at least two actual splits 14

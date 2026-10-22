@@ -1,5 +1,15 @@
 # Checked continuation: Erdős 727, k=2 and a separate k=3 extension
 
+## 22 October 2026: research toward k=4
+
+The [k=4 research continuation](reviews/K4_RESEARCH_2026-10-22.md) audits the
+existing k=2/k=3 arguments, proves an obstruction to a fully split quadratic
+k=4 family, and develops exact quartic constructions and partial carry bounds.
+It includes reproducible witnesses, independent arithmetic checks, and the
+remaining large-prime gap. **It does not prove infinitude for k=4.**
+
+---
+
 17 September 2026. **Proposed arguments seeking independent mathematical review.**
 This index is additive. The existing README, September 7 manuscript, original
 verifier and September 12 results are preserved unchanged.

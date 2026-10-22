@@ -1,0 +1,886 @@
+{
+  "k": 4,
+  "P": 108,
+  "Q": 1,
+  "delta": 2521,
+  "M": 432,
+  "N": -14401,
+  "C": 9143,
+  "D": 39191040,
+  "t": 1,
+  "step": 90720,
+  "residue": 16273,
+  "y": 106993,
+  "m": 26498814,
+  "n": 3343748428117,
+  "passes": true,
+  "factorizations": [
+    {
+      "shift": 1,
+      "value": 11424400704,
+      "prime_factors": [
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          1447,
+          1
+        ],
+        [
+          1523,
+          1
+        ]
+      ]
+    },
+    {
+      "shift": 1,
+      "value": 11470621680,
+      "prime_factors": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          108377,
+          1
+        ]
+      ]
+    },
+    {
+      "shift": 2,
+      "value": 11447479008,
+      "prime_factors": [
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          1892771,
+          1
+        ]
+      ]
+    },
+    {
+      "shift": 2,
+      "value": 106920,
+      "prime_factors": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ]
+    },
+    {
+      "shift": 2,
+      "value": 107066,
+      "prime_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          47,
+          1
+        ],
+        [
+          67,
+          1
+        ]
+      ]
+    },
+    {
+      "shift": 3,
+      "value": 106850,
+      "prime_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          2137,
+          1
+        ]
+      ]
+    },
+    {
+      "shift": 3,
+      "value": 107136,
+      "prime_factors": [
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          31,
+          1
+        ]
+      ]
+    },
+    {
+      "shift": 3,
+      "value": 106904,
+      "prime_factors": [
+        [
+          2,
+          3
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          23,
+          1
+        ],
+        [
+          83,
+          1
+        ]
+      ]
+    },
+    {
+      "shift": 3,
+      "value": 107082,
+      "prime_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          661,
+          1
+        ]
+      ]
+    },
+    {
+      "shift": 4,
+      "value": 11447487648,
+      "prime_factors": [
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          137,
+          1
+        ],
+        [
+          32237,
+          1
+        ]
+      ]
+    },
+    {
+      "shift": 4,
+      "value": 11447488080,
+      "prime_factors": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          757109,
+          1
+        ]
+      ]
+    }
+  ],
+  "prime_checks": [
+    {
+      "p": 2,
+      "product_valuation": 4,
+      "required": 8,
+      "available_carries": 23,
+      "factorial_margin": 15
+    },
+    {
+      "p": 3,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 15,
+      "factorial_margin": 13
+    },
+    {
+      "p": 5,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 13,
+      "factorial_margin": 11
+    },
+    {
+      "p": 7,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 9,
+      "factorial_margin": 7
+    },
+    {
+      "p": 11,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 9,
+      "factorial_margin": 7
+    },
+    {
+      "p": 17,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 6,
+      "factorial_margin": 4
+    },
+    {
+      "p": 23,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 6,
+      "factorial_margin": 4
+    },
+    {
+      "p": 31,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 4,
+      "factorial_margin": 2
+    },
+    {
+      "p": 47,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 5,
+      "factorial_margin": 3
+    },
+    {
+      "p": 67,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 5,
+      "factorial_margin": 3
+    },
+    {
+      "p": 83,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 5,
+      "factorial_margin": 3
+    },
+    {
+      "p": 137,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 4,
+      "factorial_margin": 2
+    },
+    {
+      "p": 661,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 4,
+      "factorial_margin": 2
+    },
+    {
+      "p": 1447,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 3,
+      "factorial_margin": 1
+    },
+    {
+      "p": 1523,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 4,
+      "factorial_margin": 2
+    },
+    {
+      "p": 2137,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 2,
+      "factorial_margin": 0
+    },
+    {
+      "p": 32237,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 2,
+      "factorial_margin": 0
+    },
+    {
+      "p": 108377,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 2,
+      "factorial_margin": 0
+    },
+    {
+      "p": 757109,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 2,
+      "factorial_margin": 0
+    },
+    {
+      "p": 1892771,
+      "product_valuation": 1,
+      "required": 2,
+      "available_carries": 2,
+      "factorial_margin": 0
+    }
+  ],
+  "scope": "Exact finite certificate; not an infinitude proof.",
+  "lucas_prime_certificates": [
+    {
+      "p": 2,
+      "base_case": true
+    },
+    {
+      "p": 3,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 5,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "p": 7,
+      "lucas_witness": 3,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 11,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          5,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 13,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 17,
+      "lucas_witness": 3,
+      "p_minus_one_factors": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "p": 19,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "p": 23,
+      "lucas_witness": 5,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 31,
+      "lucas_witness": 3,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 41,
+      "lucas_witness": 6,
+      "p_minus_one_factors": [
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 47,
+      "lucas_witness": 5,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          23,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 67,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 79,
+      "lucas_witness": 3,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 83,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          41,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 89,
+      "lucas_witness": 3,
+      "p_minus_one_factors": [
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 137,
+      "lucas_witness": 3,
+      "p_minus_one_factors": [
+        [
+          2,
+          3
+        ],
+        [
+          17,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 241,
+      "lucas_witness": 7,
+      "p_minus_one_factors": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 307,
+      "lucas_witness": 5,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          17,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 661,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 761,
+      "lucas_witness": 6,
+      "p_minus_one_factors": [
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          19,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 1229,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          2
+        ],
+        [
+          307,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 1447,
+      "lucas_witness": 3,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          241,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 1523,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          761,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 2137,
+      "lucas_witness": 10,
+      "p_minus_one_factors": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          89,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 8059,
+      "lucas_witness": 3,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          79,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 17207,
+      "lucas_witness": 5,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          1229,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 32237,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          2
+        ],
+        [
+          8059,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 108377,
+      "lucas_witness": 3,
+      "p_minus_one_factors": [
+        [
+          2,
+          3
+        ],
+        [
+          19,
+          1
+        ],
+        [
+          23,
+          1
+        ],
+        [
+          31,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 757109,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          2
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          17207,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 1892771,
+      "lucas_witness": 2,
+      "p_minus_one_factors": [
+        [
+          2,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          17207,
+          1
+        ]
+      ]
+    }
+  ]
+}

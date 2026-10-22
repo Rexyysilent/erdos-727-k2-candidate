@@ -1,0 +1,43 @@
+{
+  "symbolic_identity_groups": [
+    {
+      "denominator": 39191040,
+      "exact_factorization_identities": 4
+    },
+    {
+      "denominator": 483840,
+      "exact_factorization_identities": 4
+    },
+    {
+      "denominator": 40320,
+      "exact_factorization_identities": 4
+    }
+  ],
+  "independent_full_unit_enumerations": [
+    {
+      "denominator": 40320,
+      "Y": 1177,
+      "direction": 1,
+      "unit_classes": 9216,
+      "roots": 8,
+      "matched": "B2,B23,B234 exact per-root counts"
+    },
+    {
+      "denominator": 40320,
+      "Y": 713,
+      "direction": -1,
+      "unit_classes": 9216,
+      "roots": 8,
+      "matched": "B2,B23,B234 exact per-root counts"
+    },
+    {
+      "denominator": 483840,
+      "Y": 3411,
+      "direction": -1,
+      "unit_classes": 110592,
+      "roots": 4,
+      "matched": "B2,B23,B234 exact per-root counts"
+    }
+  ],
+  "result": "All exact checks passed."
+}
